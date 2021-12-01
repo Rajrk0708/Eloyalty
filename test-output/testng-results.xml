@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41276" started-at="2021-12-01T08:49:22Z" finished-at="2021-12-01T08:50:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="41276" started-at="2021-12-01T08:49:22Z" finished-at="2021-12-01T08:50:04Z">
+      <class name="com.cucum.stepdefinition.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="setUpClass" is-config="true" duration-ms="1758" started-at="2021-12-01T08:49:22Z" finished-at="2021-12-01T08:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" duration-ms="17350" started-at="2021-12-01T08:49:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T08:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify able to launch the eloyalty application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ELoyalty Homepage Stepdefinition]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" duration-ms="746" started-at="2021-12-01T08:49:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T08:49:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Annual membership description available in eloyalty homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ELoyalty Homepage Stepdefinition]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" duration-ms="8235" started-at="2021-12-01T08:49:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T08:49:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user able to click Join AAdvantage and visit the enrollment page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ELoyalty Homepage Stepdefinition]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" duration-ms="3999" started-at="2021-12-01T08:49:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T08:49:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user able to click AAdvantage Number and visit the need your number page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ELoyalty Homepage Stepdefinition]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="runScenario" duration-ms="3658" started-at="2021-12-01T08:49:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-01T08:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user able to click Password and visit the Need a password Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ELoyalty Homepage Stepdefinition]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucum.stepdefinition.Runner@192b07fd]" name="tearDownClass" is-config="true" duration-ms="5456" started-at="2021-12-01T08:49:58Z" finished-at="2021-12-01T08:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucum.stepdefinition.Runner -->
+      <class name="com.cucum.baseclass.BaseClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.cucum.baseclass.BaseClass@20322d26]" name="beforeSuite" is-config="true" duration-ms="3558" started-at="2021-12-01T08:49:19Z" finished-at="2021-12-01T08:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.cucum.baseclass.BaseClass@20322d26]" name="afterSuite" is-config="true" duration-ms="748" started-at="2021-12-01T08:50:04Z" finished-at="2021-12-01T08:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.cucum.baseclass.BaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
